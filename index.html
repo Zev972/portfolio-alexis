@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Alexis CRUZOE</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+</head>
+<body>
+  <header>
+    <h1>Alexis CRUZOE – Étudiant BTS SIO SISR</h1>
+    <nav>
+      <a href="#accueil">Accueil</a>
+      <a href="#apropos">À propos</a>
+      <a href="#projets">Projets</a>
+      <a href="#docs">Documentations</a>
+      <a href="#veille">Veille</a>
+      <a href="#entreprise">Entreprise</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section id="accueil" data-aos="fade-in">
+      <h2>Alexis CRUZOE – Étudiant BTS SIO SISR</h2>
+    </section>
+    <section id="apropos" data-aos="fade-up">
+      <h2>À propos</h2>
+      <ul>
+        <li><strong>Collège Asselin de Beauville</strong> – Brevet des collèges</li>
+        <li><strong>Bac Pro SN</strong> à l’Amep à Redoute – 4 stages : 2 à Microforce (SAV), 2 à Aza Telecom</li>
+        <li><strong>BTS SIO option SISR</strong> à Keyce Académie – en alternance chez Novabytes</li>
+      </ul>
+    </section>
+    <section id="projets" data-aos="fade-up">
+      <h2>Projets réalisés</h2>
+      <div class="card"><h3>GLPI</h3><p>Déploiement et configuration sur Debian</p><a href="docs/glpi-installation.pdf">Voir la documentation</a></div>
+      <div class="card"><h3>Zabbix</h3><p>Supervision réseau avec alertes</p><a href="docs/zabbix-installation.pdf">Voir la documentation</a></div>
+    </section>
+    <section id="docs" data-aos="fade-up">
+      <h2>Documentations techniques</h2>
+      <ul>
+        <li><a href="docs/windows-server.pdf">Windows Server (AD, DNS, DHCP)</a></li>
+        <li><a href="docs/pfsense.pdf">pfSense (VPN, Firewall, NAT)</a></li>
+        <li><a href="docs/iis.pdf">IIS (hébergement web sécurisé)</a></li>
+      </ul>
+    </section>
+    <section id="veille" data-aos="fade-up">
+      <h2>Veille technologique</h2>
+      <p>Suivi de l'actualité cybersécurité via ANSSI, Feedly, LinkedIn. Dernier sujet : détection des ransomwares en entreprise.</p>
+    </section>
+    <section id="entreprise" data-aos="fade-up">
+      <h2>Entreprise</h2>
+      <p>Novabytes est une société spécialisée dans la cybersécurité et la maintenance informatique. Elle accompagne ses clients dans la sécurisation de leurs infrastructures et assure un support technique fiable au quotidien.</p>
+    </section>
+    <section id="contact" data-aos="fade-up">
+      <h2>Contact</h2>
+      <p>Email : alexis.cruzoe@gmail.com</p>
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000, once: true });
+  </script>
+</body>
+</html>
